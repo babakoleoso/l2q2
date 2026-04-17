@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SGI Study Page | The 16 Major Odu</title>
+  <title>Ifa/Isese Virtual Lecture Series | The 16 Major Odu</title>
   <meta name="description" content="SwamiG Institute study page on the 16 Major Odu using the Ogbon Inu pragmatic framework." />
   <style>
     :root{
@@ -54,6 +54,11 @@
       border-bottom:1px solid rgba(255,255,255,.06);
     }
 
+    .topbar .wrap{
+      width:min(var(--max), 94%);
+      margin:0 auto;
+    }
+
     .topbar-inner{
       display:flex;
       align-items:center;
@@ -68,6 +73,18 @@
       gap:12px;
       font-weight:bold;
       letter-spacing:.4px;
+    }
+
+    .sgi-logo{
+      height:58px;
+      width:auto;
+      max-width:180px;
+      object-fit:contain;
+      border-radius:12px;
+      background:#0b0b12;
+      box-shadow:0 0 0 1px rgba(212,175,55,.16), 0 10px 20px rgba(0,0,0,.28);
+      filter:drop-shadow(0 0 6px rgba(142,104,255,.35));
+      display:block;
     }
 
     .brand-badge{
@@ -89,13 +106,14 @@
       line-height:1.1;
     }
 
-    .brand-text span:first-child{
-      font-size:1rem;
-      color:#fff;
+    .brand-text .eyebrow{
+      margin-bottom:4px;
+      font-size:.78rem;
+      padding:6px 10px;
     }
 
-    .brand-text span:last-child{
-      font-size:.8rem;
+    .brand-text .name{
+      font-size:.9rem;
       color:var(--muted);
       letter-spacing:.08em;
       text-transform:uppercase;
@@ -377,25 +395,39 @@
       .nav{
         display:none;
       }
+
+      .sgi-logo{
+        height:46px;
+        max-width:140px;
+      }
+
+      .brand{
+        gap:10px;
+      }
+
+      .brand-text .eyebrow{
+        font-size:.7rem;
+        padding:5px 8px;
+      }
+
+      .brand-text .name{
+        font-size:.78rem;
+      }
     }
   </style>
 </head>
 <body>
   <header class="topbar">
-    <div class="wrap topbar-inner">
-      <div class="brand">
-        <div class="brand-badge">SGI</div>
-        <div class="brand-text">
-          <span>SwamiG Institute</span>
-          <span>16 Major Odu Study Page</span>
-        </div>
+    <div class="wrap">
+      <div class="topbar-inner">
+        <a class="brand" href="https://swamiginstitute.com" target="_blank" rel="noopener">
+          <img src="SwamiG.gif" alt="SwamiG Institute Logo" class="sgi-logo" />
+          <div class="brand-text">
+            <span class="eyebrow">SwamiG Institute</span>
+            <span class="name">SwamiG Response</span>
+          </div>
+        </a>
       </div>
-      <nav class="nav">
-        <a href="#overview">Overview</a>
-        <a href="#odu">16 Odu</a>
-        <a href="#phases">Study Flow</a>
-        <a href="#use">How to Use</a>
-      </nav>
     </div>
   </header>
 
@@ -403,37 +435,13 @@
     <section class="hero">
       <div class="wrap">
         <div class="hero-card">
-          <div class="eyebrow">SGI Pragmatic Study Framework</div>
+          <div class="eyebrow">OLODU/16 MAJOR ODU</div>
           <h1>The 16 Major Odu / Olódù</h1>
           <p class="sub">
-            A SwamiG Institute study page built around the pragmatic and inner-developmental reading
+            This page is built around the pragmatic and inner-developmental reading
             of the 16 major Odu as reflected in <em>Ogbon Inu</em>. This page is designed for study,
-            teaching, reflection, and spiritual self-development.
+            teaching, reflection, and spiritual self-development by the author.
           </p>
-
-          <div class="pillars">
-            <div class="pillar">
-              <h3>Radical Devotion</h3>
-              <p>
-                Study the Odu not merely as signs, but as living instructions for discipline,
-                alignment, and sincere spiritual practice.
-              </p>
-            </div>
-            <div class="pillar">
-              <h3>Words of Power</h3>
-              <p>
-                Each Odu carries a governing idea, phrase, or principle that shapes speech,
-                thought, and behavioral refinement.
-              </p>
-            </div>
-            <div class="pillar">
-              <h3>Infinite Wisdom</h3>
-              <p>
-                The full sequence becomes a ladder of consciousness: from self-responsibility,
-                to transformation, to purification, to completion.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -461,7 +469,7 @@
               <span>Ori, character, conduct, embodiment, and responsible change.</span>
             </div>
             <div class="mini">
-              <strong>SGI Use</strong>
+              <strong>Use</strong>
               <span>Study, teaching modules, priest development, and guided reflection.</span>
             </div>
           </div>
@@ -475,7 +483,7 @@
           <h2 class="section-title">The 16 Major Odu</h2>
           <p class="section-note">
             Each card includes: the Odu name, a study phrase, the inner principle, and a practical
-            SGI-style reflection.
+            reflection.
           </p>
 
           <div class="odu-grid">
@@ -486,7 +494,7 @@
               <div class="subtitle">Lift yourself</div>
               <span class="tag">Elevation</span>
               <span class="tag">Self-responsibility</span>
-              <p><strong>Inner Principle:</strong> True upliftment begins when the devotee stops waiting for external rescue.</p>
+              <p><strong>Inner Principle:</strong> True upliftment begins when I- SwamiG stops waiting for external rescue.</p>
               <div class="study-box">
                 <strong>Study Reflection:</strong> What must I change, build, or release in order to participate in my own elevation?
               </div>
@@ -534,7 +542,7 @@
               <div class="subtitle">Honor time and thought</div>
               <span class="tag">Time</span>
               <span class="tag">Thought</span>
-              <p><strong>Inner Principle:</strong> The way time is used reveals the seriousness of one’s purpose.</p>
+              <p><strong>Inner Principle:</strong> The way time is used reveals the seriousness of my purpose.</p>
               <div class="study-box">
                 <strong>Study Reflection:</strong> Where is my time going, and what does that reveal about my priorities?
               </div>
@@ -582,7 +590,7 @@
               <div class="subtitle">Carry responsibility without capsizing</div>
               <span class="tag">Discipline</span>
               <span class="tag">Responsibility</span>
-              <p><strong>Inner Principle:</strong> Strength is proven by how well we carry duty, pressure, and direction.</p>
+              <p><strong>Inner Principle:</strong> My Strength is proven by how well I carry duty, pressure, and direction.</p>
               <div class="study-box">
                 <strong>Study Reflection:</strong> What must I strengthen so my canoe does not capsize?
               </div>
@@ -682,7 +690,7 @@
         <div class="section-card">
           <h2 class="section-title">Four-Phase Study Flow</h2>
           <p class="section-note">
-            This SGI reading organizes the 16 Odu into four broad movements of development.
+            This exercise organizes the 16 Odu into four broad movements of development.
           </p>
 
           <div class="phase-grid">
@@ -724,7 +732,7 @@
           <h2 class="section-title">How to Use This Study Page</h2>
           <p class="section-note">
             This page can be used as a self-study tool, a class handout, a teaching page, or a
-            foundation for a larger SGI priest-development module.
+            foundation for a larger priest-development module.
           </p>
 
           <div class="summary-grid">
@@ -754,8 +762,10 @@
     <div class="wrap">
       <p>
         <strong>SwamiG Institute Study Page</strong><br/>
-        The 16 Major Odu · Pragmatic Wisdom · Inner Development · Applied Spiritual Study  Governed by Oyeku(-)/ Auset(-)[New moon Aries]
+        The 16 Major Odu · Pragmatic Wisdom · Inner Development · Applied Spiritual Study
+      </p>
     </div>
+    Covered by New Moon Aries-Taurus 0% illumination
   </footer>
 </body>
 </html>
